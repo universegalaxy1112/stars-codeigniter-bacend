@@ -1,0 +1,47 @@
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor/
+# Dick_200428
+
+
+
+### JetBrains ###
+
+.idea/
+.vscode/
+
+
+
+### Other ###
+
+.DS_Store
+
+*.nc
+*.DS_store
+
+### Different from local and server *_local, *_server ###
+
+# Setting
+
+assets/uploads/
+/application/config/database.php
+
+
+# node
+node_modules/
+npm-debug.log
+
